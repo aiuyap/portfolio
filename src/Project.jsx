@@ -11,7 +11,7 @@ export function Projects() {
             through The Odin Project course. You can check out all the projects
             and activities I have done on my GitHub account.
           </p>
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center py-14">
             <ProjectList />
           </div>
         </div>

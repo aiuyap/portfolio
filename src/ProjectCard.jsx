@@ -12,7 +12,7 @@ export function ProjectCard({ title, image, description }) {
       <img src={image} alt={title} className="h-48 w-full object-cover" />
       <div className="p-4">
         <h3 className="text-xl font-semibold">{title}</h3>
-        <p className="mt-2 text-gray-600">{description}</p>
+        <p className="mt-2 text-gray-400">{description}</p>
       </div>
     </div>
   );
