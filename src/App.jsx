@@ -9,7 +9,7 @@ function App() {
         <a href="#">Learning Journey</a>
         <a href="#">Projects</a>
       </nav>
-      <section className="flex h-dvh items-center justify-center">
+      <section className="flex min-h-dvh items-center justify-center">
         <h1 className="text-2xl">
           Hi, I&apos;m Aiu. An aspiring Software Engineer
         </h1>

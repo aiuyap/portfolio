@@ -2,7 +2,7 @@ import StackIcon from "tech-stack-icons";
 
 export function LearningJourney() {
   return (
-    <section className="flex h-dvh flex-col items-center justify-center px-14">
+    <section className="flex min-h-dvh flex-col items-center justify-center px-14">
       <h1 className="pb-14 text-2xl">Learning Journey</h1>
       <p>
         I am a graduate of Bachelor of Science in Information Technology at
@@ -70,6 +70,10 @@ export function LearningJourney() {
         <li className="flex flex-col items-center justify-center">
           <StackIcon name="shadcnui" className="w-10" />
           <p>shadcn/ui</p>
+        </li>
+        <li className="flex flex-col items-center justify-center">
+          <StackIcon name="linux" className="w-10" />
+          <p>Linux</p>
         </li>
       </ul>
     </section>
