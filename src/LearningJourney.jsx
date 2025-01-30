@@ -1,3 +1,5 @@
+import StackIcon from "tech-stack-icons";
+
 export function LearningJourney() {
   return (
     <section className="flex h-dvh flex-col items-center justify-center px-14">
@@ -12,23 +14,63 @@ export function LearningJourney() {
         Software Engineer.
       </p>
       <h2 className="pt-14 text-2xl">Tech Stack</h2>
-      <ul className="flex items-center justify-center gap-14 pt-14">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>SQL</li>
-        <li>NodeJS</li>
-        <li>npm</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Jest</li>
-        <li>Webpack</li>
-        <li>TailwindCSS</li>
-        <li>Vite</li>
-        <li>shadcn/ui</li>
-        <li>Lucide</li>
-        <li>date fns</li>
+      <ul className="flex flex-wrap items-center justify-center gap-14 pt-14">
+        <li className="flex flex-col items-center justify-center">
+          <StackIcon name="html5" className="w-10" />
+          <p>HTML</p>
+        </li>
+        <li className="flex flex-col items-center justify-center">
+          <StackIcon name="css3" className="w-10" />
+          <p>CSS</p>
+        </li>
+        <li className="flex flex-col items-center justify-center">
+          <StackIcon name="tailwindcss" className="w-10" />
+          <p>TailwindCSS</p>
+        </li>
+        <li className="flex flex-col items-center justify-center">
+          <StackIcon name="js" className="w-10" />
+          <p>JavaScript</p>
+        </li>
+        <li className="flex flex-col items-center justify-center">
+          <StackIcon name="reactjs" className="w-10" />
+          <p>React</p>
+        </li>
+        <li className="flex flex-col items-center justify-center">
+          <StackIcon name="mysql" className="w-10" />
+          <p>SQL</p>
+        </li>
+        <li className="flex flex-col items-center justify-center">
+          <StackIcon name="nodejs" className="w-10" />
+          <p>NodeJS</p>
+        </li>
+        <li className="flex flex-col items-center justify-center">
+          <StackIcon name="npm" className="w-10" />
+          <p>npm</p>
+        </li>
+        <li className="flex flex-col items-center justify-center">
+          <StackIcon name="git" className="w-10" />
+          <p>Git</p>
+        </li>
+        <li className="flex flex-col items-center justify-center">
+          <StackIcon name="github" className="w-10" />
+          <p>Github</p>
+        </li>
+        <li className="flex flex-col items-center justify-center">
+          <StackIcon name="jest" className="w-10" />
+          <p>Jest</p>
+        </li>
+        <li className="flex flex-col items-center justify-center">
+          <StackIcon name="webpack" className="w-10" />
+          <p>Webpack</p>
+        </li>
+        <li className="flex flex-col items-center justify-center">
+          <StackIcon name="vitejs" className="w-10" />
+          <p>Vite</p>
+        </li>
+        <li className="flex flex-col items-center justify-center">
+          <StackIcon name="shadcnui" className="w-10" />
+          <p>shadcn/ui</p>
+        </li>
       </ul>
     </section>
   );
